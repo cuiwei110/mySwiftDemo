@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Demo2-SegmentController
+//  SSSegmentedViewExample
 //
-//  Created by cuizongwei on 20/8/18.
-//  Copyright © 2018年 cuizongwei. All rights reserved.
+//  Created by xiaobei on 2017/8/23.
+//  Copyright © 2017年 xiaobei. All rights reserved.
 //
 
 import UIKit

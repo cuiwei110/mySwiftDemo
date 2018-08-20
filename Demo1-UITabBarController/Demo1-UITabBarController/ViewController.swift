@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Demo1-UITabBarController框架
+//  Demo2-SegmentController
 //
-//  Created by cuizongwei on 19/8/18.
+//  Created by cuizongwei on 20/8/18.
 //  Copyright © 2018年 cuizongwei. All rights reserved.
 //
 

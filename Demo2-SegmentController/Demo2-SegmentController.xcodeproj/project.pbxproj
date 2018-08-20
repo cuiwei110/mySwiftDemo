@@ -12,6 +12,8 @@
 		E2806B95212AD6B90079EC6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2806B93212AD6B90079EC6E /* Main.storyboard */; };
 		E2806B97212AD6B90079EC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2806B96212AD6B90079EC6E /* Assets.xcassets */; };
 		E2806B9A212AD6B90079EC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2806B98212AD6B90079EC6E /* LaunchScreen.storyboard */; };
+		E2806BE2212ADFF90079EC6E /* SSSegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2806BE1212ADFF80079EC6E /* SSSegmentedView.swift */; };
+		E2806BE4212AE01F0079EC6E /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2806BE3212AE01F0079EC6E /* testViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E2806B96212AD6B90079EC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2806B99212AD6B90079EC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2806B9B212AD6B90079EC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2806BE1212ADFF80079EC6E /* SSSegmentedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSSegmentedView.swift; sourceTree = "<group>"; };
+		E2806BE3212AE01F0079EC6E /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		E2806B8E212AD6B90079EC6E /* Demo2-SegmentController */ = {
 			isa = PBXGroup;
 			children = (
+				E2806BE0212ADFF80079EC6E /* SSSegmentedView */,
 				E2806B8F212AD6B90079EC6E /* AppDelegate.swift */,
 				E2806B91212AD6B90079EC6E /* ViewController.swift */,
+				E2806BE3212AE01F0079EC6E /* testViewController.swift */,
 				E2806B93212AD6B90079EC6E /* Main.storyboard */,
 				E2806B96212AD6B90079EC6E /* Assets.xcassets */,
 				E2806B98212AD6B90079EC6E /* LaunchScreen.storyboard */,
@@ -63,6 +69,14 @@
 			);
 			path = "Demo2-SegmentController";
 			sourceTree = "<group>";
+		};
+		E2806BE0212ADFF80079EC6E /* SSSegmentedView */ = {
+			isa = PBXGroup;
+			children = (
+				E2806BE1212ADFF80079EC6E /* SSSegmentedView.swift */,
+			);
+			path = SSSegmentedView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -137,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2806B92212AD6B90079EC6E /* ViewController.swift in Sources */,
+				E2806BE2212ADFF90079EC6E /* SSSegmentedView.swift in Sources */,
+				E2806BE4212AE01F0079EC6E /* testViewController.swift in Sources */,
 				E2806B90212AD6B90079EC6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Demo2-SegmentController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "top.anankevip.www.Demo2-SegmentController";
+				PRODUCT_BUNDLE_IDENTIFIER = top.anankevip.www.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Demo2-SegmentController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "top.anankevip.www.Demo2-SegmentController";
+				PRODUCT_BUNDLE_IDENTIFIER = top.anankevip.www.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

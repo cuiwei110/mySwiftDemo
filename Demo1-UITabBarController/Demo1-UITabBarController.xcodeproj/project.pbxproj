@@ -15,7 +15,7 @@
 		E21DE2FC2129AA52002CF277 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DE2F82129AA51002CF277 /* ThirdViewController.swift */; };
 		E21DE2FD2129AA52002CF277 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DE2F92129AA51002CF277 /* RootViewController.swift */; };
 		E21DE2FE2129AA52002CF277 /* SecondeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DE2FA2129AA52002CF277 /* SecondeViewController.swift */; };
-		E21DE2FF2129AA52002CF277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DE2FB2129AA52002CF277 /* ViewController.swift */; };
+		E2806BDF212ADCFE0079EC6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2806BDE212ADCFE0079EC6E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		E21DE2F82129AA51002CF277 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		E21DE2F92129AA51002CF277 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		E21DE2FA2129AA52002CF277 /* SecondeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondeViewController.swift; sourceTree = "<group>"; };
-		E21DE2FB2129AA52002CF277 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2806BDE212ADCFE0079EC6E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				E21DE2E42129A9EF002CF277 /* AppDelegate.swift */,
+				E2806BDE212ADCFE0079EC6E /* ViewController.swift */,
 				E21DE2F92129AA51002CF277 /* RootViewController.swift */,
 				E21DE2FA2129AA52002CF277 /* SecondeViewController.swift */,
 				E21DE2F82129AA51002CF277 /* ThirdViewController.swift */,
@@ -150,7 +151,7 @@
 				E21DE2FE2129AA52002CF277 /* SecondeViewController.swift in Sources */,
 				E21DE2FD2129AA52002CF277 /* RootViewController.swift in Sources */,
 				E21DE2F72129AA49002CF277 /* FirstViewController.swift in Sources */,
-				E21DE2FF2129AA52002CF277 /* ViewController.swift in Sources */,
+				E2806BDF212ADCFE0079EC6E /* ViewController.swift in Sources */,
 				E21DE2FC2129AA52002CF277 /* ThirdViewController.swift in Sources */,
 				E21DE2E52129A9EF002CF277 /* AppDelegate.swift in Sources */,
 			);
@@ -292,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Demo1-UITabBarController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "top.anankevip.www.Demo1-UITabBarController";
+				PRODUCT_BUNDLE_IDENTIFIER = top.anankevip.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,7 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Demo1-UITabBarController/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "top.anankevip.www.Demo1-UITabBarController";
+				PRODUCT_BUNDLE_IDENTIFIER = top.anankevip.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
