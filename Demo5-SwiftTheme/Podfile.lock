@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (4.0.0)
+  - SwiftTheme (0.4.1)
+
+DEPENDENCIES:
+  - SnapKit
+  - SwiftTheme
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+    - SwiftTheme
+
+SPEC CHECKSUMS:
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftTheme: 36d71c4eed4b2c401c782cf036e4586c749a8173
+
+PODFILE CHECKSUM: 14b2b512d1114f85e79d633074369420274c24f6
+
+COCOAPODS: 1.5.0.beta.1

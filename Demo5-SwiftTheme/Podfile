@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, ‘9.0’
+
+target 'Demo5-SwiftTheme' do
+
+  use_frameworks!
+
+ pod 'SnapKit'           #自动布局
+ pod 'SwiftTheme'           
+
+
+
+
+
+
+
+
+end
