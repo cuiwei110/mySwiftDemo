@@ -35,6 +35,7 @@ enum MyThemes: Int {
         var next = ThemeManager.currentThemeIndex + 1
         if next > 2 { next = 0 } // cycle and without Night
         switchTo(theme: MyThemes(rawValue: next)!)
+        saveLastTheme()
     }
     
     // MARK: - Switch Night
