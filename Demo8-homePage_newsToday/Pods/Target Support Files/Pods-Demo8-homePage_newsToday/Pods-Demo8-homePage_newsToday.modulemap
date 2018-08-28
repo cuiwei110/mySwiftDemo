@@ -1,0 +1,6 @@
+framework module Pods_Demo8_homePage_newsToday {
+  umbrella header "Pods-Demo8-homePage_newsToday-umbrella.h"
+
+  export *
+  module * { export * }
+}
